@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manikumar Thote — Network &amp; Observability Infrastructure Engineer</title>
+<meta name="description" content="Portfolio of Manikumar Thote, Network and Infrastructure Engineer specializing in observability, incident response, and network automation.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===== Status bar (site header) ===== -->
+<header class="statusbar" role="banner">
+  <div class="statusbar__inner">
+    <div class="statusbar__host">
+      <span class="statusbar__dot" aria-hidden="true"></span>
+      <span class="statusbar__label">host:</span>
+      <span class="statusbar__value">manikumar-thote.dev</span>
+    </div>
+
+    <nav class="statusbar__nav" id="site-nav" aria-label="Primary">
+      <a href="#experience">experience</a>
+      <a href="#observability">observability</a>
+      <a href="#security">security</a>
+      <a href="#skills">skills</a>
+      <a href="#certifications">certifications</a>
+      <a href="#contact">contact</a>
+    </nav>
+
+    <div class="statusbar__meta">
+      <span class="statusbar__label">status:</span>
+      <span class="statusbar__value statusbar__value--ok">operational</span>
+      <span class="statusbar__sep" aria-hidden="true">·</span>
+      <span class="statusbar__label">uptime:</span>
+      <span class="statusbar__value" id="session-uptime">00:00:00</span>
+    </div>
+
+    <button class="statusbar__toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home">
+    <div class="hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow">// network &amp; infrastructure engineer</p>
+        <h1 class="hero__name">Manikumar<br>Thote</h1>
+        <p class="hero__role">Observability &amp; Infrastructure Analyst</p>
+        <p class="hero__summary">
+          Result-oriented network and infrastructure engineer with 4+ years running production
+          support, high-severity incident response, and large-scale deployments across global
+          private data networks — expert in Layer 2/3 routing (BGP, OSPF, EIGRP, TCP/IP), optical
+          transport troubleshooting, and using automation to keep 24/7 mission-critical
+          environments online.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="mailto:manikumarthote09@gmail.com">Email me</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/manikumar-thote/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--ghost" href="#experience">View experience log</a>
+        </div>
+        <ul class="hero__contact">
+          <li><span aria-hidden="true">📞</span> +91 95737 94662</li>
+          <li><span aria-hidden="true">✉</span> manikumarthote09@gmail.com</li>
+        </ul>
+      </div>
+
+      <div class="hero__photo">
+        <div class="hero__photo-frame">
+          <!-- Replace this src with assets/images/profile.jpg (your real photo) -->
+          <img src="assets/images/profile-placeholder.svg" alt="Portrait of Manikumar Thote" width="480" height="480" id="profile-photo">
+        </div>
+        <p class="hero__photo-caption">// replace assets/images/profile-placeholder.svg<br>with assets/images/profile.jpg</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience (log style) ===== -->
+  <section class="section" id="experience">
+    <h2 class="section__title"><span class="section__index">01</span> Experience Log</h2>
+    <p class="section__intro">A chronological record of production ownership, from first-responder network rapid-response to end-to-end observability of global data networks.</p>
+
+    <ol class="log">
+      <li class="log__entry">
+        <div class="log__timestamp">[2024-01 &rarr; PRESENT]</div>
+        <div class="log__body">
+          <h3 class="log__role">Observability &amp; Infrastructure Analyst</h3>
+          <p class="log__org">ICE Data Services</p>
+          <ul class="log__list">
+            <li>Own and drive production network incident management and real-time infrastructure visibility across complex enterprise systems using CA Spectrum, Splunk, and Dynatrace to guarantee high availability.</li>
+            <li>Use automation scripts (Python, Bash, Ansible YAML) to streamline network administrative tasks, optimize repair times, and reduce manual operations overhead.</li>
+            <li>Investigate critical infrastructure incidents, assess environment capacity risks, and implement corrective changes to systematically eliminate service disruptions across global data networks.</li>
+            <li>Govern network change management and system optimization, monitoring core platform health and navigating complex system dependencies to prevent performance degradation.</li>
+            <li>Collaborate with cross-functional engineering teams and external telecom vendor support to troubleshoot, isolate, and resolve complex production bugs.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="log__entry">
+        <div class="log__timestamp">[2022-05 &rarr; 2023-12]</div>
+        <div class="log__body">
+          <h3 class="log__role">Systems Engineer, Network Rapid Response</h3>
+          <p class="log__org">ATOS IT Global Solutions</p>
+          <ul class="log__list">
+            <li>First responder for faults and outages on high-pressure global enterprise production networks, executing systematic troubleshooting to diagnose and resolve complex issues.</li>
+            <li>Diagnosed and remediated Layer 2/3 issues involving BGP, OSPF, EIGRP, and TCP/IP during business-critical link, circuit, and transmission system failures.</li>
+            <li>Managed end-to-end ITIL frameworks, owning incident pipelines to ensure strict adherence to network repair SLOs and rapid service restoration.</li>
+            <li>Performed root cause analysis (RCA) on network incidents and deployed durable corrective actions to eliminate recurring hardware or protocol failures.</li>
+            <li>Served on a 24/7 on-call rotation within a network operations center (NOC), managing multi-client data centers to isolate and mitigate degradation events proactively.</li>
+            <li>Coordinated escalation pathways with Tier 1 ISPs (Verizon, AT&amp;T, Lumen) and vendors (Cisco TAC, Juniper TAC) to execute fast-paced service recovery.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===== Observability highlight ===== -->
+  <section class="section section--panel" id="observability">
+    <h2 class="section__title"><span class="section__index">02</span> Observability Practice</h2>
+    <p class="section__intro">
+      Real-time visibility into production systems is the core of the current role. The focus is on
+      turning telemetry from monitoring platforms into fast, correct incident response — reducing
+      time-to-detect and time-to-resolve across global infrastructure.
+    </p>
+
+    <div class="obs-grid">
+      <article class="obs-card">
+        <h3 class="obs-card__title">Incident Visibility</h3>
+        <p>Live infrastructure monitoring across global enterprise networks using <strong>CA Spectrum</strong>, <strong>Splunk</strong>, and <strong>Dynatrace</strong> to detect degradation before it impacts service.</p>
+      </article>
+      <article class="obs-card">
+        <h3 class="obs-card__title">Alert Correlation</h3>
+        <p>Working with <strong>BigPanda</strong> for event correlation, cutting through alert noise to surface the root incident driving related symptoms across the environment.</p>
+      </article>
+      <article class="obs-card">
+        <h3 class="obs-card__title">Automation-Driven Response</h3>
+        <p>Python, Bash, and Ansible (YAML) scripts that streamline recurring diagnostic and remediation tasks, shrinking repair time and manual operational overhead.</p>
+      </article>
+      <article class="obs-card">
+        <h3 class="obs-card__title">Root Cause &amp; Change Governance</h3>
+        <p>Structured RCA on production incidents paired with disciplined change governance, so fixes are durable rather than repeated.</p>
+      </article>
+    </div>
+
+    <div class="stack-row">
+      <span class="chip">CA Spectrum</span>
+      <span class="chip">Splunk</span>
+      <span class="chip">Dynatrace</span>
+      <span class="chip">BigPanda</span>
+      <span class="chip">EMS / NMS</span>
+      <span class="chip">Python</span>
+      <span class="chip">Ansible</span>
+    </div>
+  </section>
+
+  <!-- ===== Security / CTF ===== -->
+  <section class="section" id="security">
+    <h2 class="section__title"><span class="section__index">03</span> Security Practice</h2>
+    <p class="section__intro">
+      Alongside production network operations, hands-on security training through guided CTF-style
+      challenges — building practical offense-informed-defense skills that carry over into incident
+      triage and RCA.
+    </p>
+
+    <div class="security-panel">
+      <div class="security-panel__badge">
+        <div class="security-panel__icon" aria-hidden="true">🛡</div>
+        <div>
+          <h3 class="security-panel__title">TryHackMe</h3>
+          <p class="security-panel__desc">Completed the <strong>Advent of Cyber 2025</strong> challenge track — a hands-on series covering practical offensive and defensive security techniques.</p>
+          <div class="security-panel__links">
+            <a class="btn btn--primary btn--sm" href="https://tryhackme.com/manikumar2742/badges/advent-of-cyber-2025" target="_blank" rel="noopener">View badge</a>
+            <a class="btn btn--ghost btn--sm" href="https://tryhackme.com/p/manikumar2742" target="_blank" rel="noopener">TryHackMe profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!--
+        Optional: add a Hack The Box profile once available.
+        <div class="security-panel__badge">
+          <div class="security-panel__icon" aria-hidden="true">🧩</div>
+          <div>
+            <h3 class="security-panel__title">Hack The Box</h3>
+            <p class="security-panel__desc">Add a short line about active machines/challenges here.</p>
+            <div class="security-panel__links">
+              <a class="btn btn--ghost btn--sm" href="https://app.hackthebox.com/profile/REPLACE_ID" target="_blank" rel="noopener">Hack The Box profile</a>
+            </div>
+          </div>
+        </div>
+      -->
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section class="section section--panel" id="skills">
+    <h2 class="section__title"><span class="section__index">04</span> Skill Modules</h2>
+
+    <div class="modules">
+      <article class="module">
+        <h3 class="module__header">module: networking &amp; protocols</h3>
+        <p>IP Networking, TCP/IP, BGP, OSPF, EIGRP, MPLS, ISIS, SDN, STP, RSTP, Network Topologies, LAN/WAN</p>
+      </article>
+      <article class="module">
+        <h3 class="module__header">module: infrastructure &amp; telecom</h3>
+        <p>Optical Networks, DWDM transmission systems, Layer 2/3 routers &amp; switches, Firewalls, VPNs, Data Center Infrastructure</p>
+      </article>
+      <article class="module">
+        <h3 class="module__header">module: operations &amp; monitoring</h3>
+        <p>Element Management Systems (EMS), Network Management Systems (NMS), CA Spectrum, Splunk, Dynatrace, BigPanda</p>
+      </article>
+      <article class="module">
+        <h3 class="module__header">module: automation &amp; devops</h3>
+        <p>Python, Bash, Ansible (YAML), AWS (EC2, VPC), Git, Bitbucket, Scripting</p>
+      </article>
+      <article class="module">
+        <h3 class="module__header">module: itsm &amp; methodology</h3>
+        <p>Production Incident Management, Root Cause Analysis (RCA), Service Level Objectives (SLOs), Tier 1/2 Network Support, Change Governance</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Certifications & Education ===== -->
+  <section class="section" id="certifications">
+    <h2 class="section__title"><span class="section__index">05</span> Certifications &amp; Education</h2>
+
+    <div class="cert-grid">
+      <article class="cert-card">
+        <h3>Cisco Certified Network Associate (CCNA)</h3>
+        <p>Cisco</p>
+      </article>
+      <article class="cert-card">
+        <h3>BigPanda Certified Operator</h3>
+        <p>BigPanda</p>
+      </article>
+      <article class="cert-card cert-card--edu">
+        <h3>B.Tech, Computer Science &amp; Engineering</h3>
+        <p>B V C Engineering College, Andhra Pradesh — 2021</p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Footer / Contact ===== -->
+<footer class="footer" id="contact">
+  <div class="footer__inner">
+    <div>
+      <p class="footer__label">// end of transmission</p>
+      <h2 class="footer__title">Let's talk infrastructure.</h2>
+    </div>
+    <div class="footer__contacts">
+      <a href="mailto:manikumarthote09@gmail.com">manikumarthote09@gmail.com</a>
+      <a href="tel:+919573794662">+91 95737 94662</a>
+      <a href="https://www.linkedin.com/in/manikumar-thote/" target="_blank" rel="noopener">linkedin.com/in/manikumar-thote</a>
+    </div>
+  </div>
+  <p class="footer__copy">© <span id="year"></span> Manikumar Thote.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
